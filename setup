@@ -1,0 +1,11 @@
+#bin/bash
+
+cd ~
+git clone https://github.com/M4vb/dotfiles.git
+cd dotfiles
+mv alacritty ~/.config
+mv nvim ~/.config
+mv oh-my-bash-theme ~/.oh-my-bash/themes/custom
+cd ~
+sudo rm -r dotfiles
+
