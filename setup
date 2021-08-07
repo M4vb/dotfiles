@@ -3,7 +3,7 @@
 cd ~
 git clone https://github.com/M4vb/dotfiles.git
 cd dotfiles
-sudo rm -r ~/.config/alacritty ~/.config/nvim ~/.oh-my-bash/themes/*
+sudo rm -r ~/.config/alacritty ~/.config/nvim ~/.oh-my-bash/themes/custom
 mv alacritty nvim ~/.config
 mv oh-my-bash-theme ~/.oh-my-bash/themes/custom
 sudo rm -r ~/dotfiles
