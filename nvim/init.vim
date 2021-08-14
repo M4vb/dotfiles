@@ -8,12 +8,12 @@ Plug 'hail2u/vim-css3-syntax', { 'for': 'css' }
 Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'tpope/vim-repeat'
-Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', {'do': 'npm install'}
 Plug 'codota/tabnine-vim'
+Plug 'mattn/emmet-vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
@@ -30,7 +30,6 @@ set cursorline  " Highlight the current line
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set shiftround
 
 set hidden  " Allow changing buffers without having to save them
 
@@ -58,8 +57,16 @@ let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
 
 " Mapping
 nnoremap <leader>s :w<CR>
-nnoremap <leader>w :x<CR>
+nnoremap <leader>q :x<CR>
+nnoremap <leader>w :bd<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <leader>e :e .<CR>
+tnoremap <Esc> <C-\><C-n>:bNext<CR>
+nnoremap <C-K> :terminal<CR>
 
 " Nerdcommenter
 let g:NERDSpaceDelims = 1  " Agregar un espacio después del delimitador del comentario
 let g:NERDTrimTrailingWhitespace = 1  " Quitar espacios al quitar comentario
+
+" Emmet
+let g:user_emmet_leader_key='<C-N>'
