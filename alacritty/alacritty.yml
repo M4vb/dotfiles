@@ -1,14 +1,5 @@
 background_opacity: 0.9
 colors:
-  bright:
-    black: '#696969'
-    blue: '#007FFF'
-    cyan: '#00CCCC'
-    green: '#03C03C'
-    magenta: '#FF1493'
-    red: '#FF2400'
-    white: '#FFFAFA'
-    yellow: '#FDFF00'
   normal:
     black: '#10100E'
     blue: '#0087BD'
@@ -30,6 +21,14 @@ font:
     family: JetBrains Mono Medium Nerd Font
   size: 12.0
 window:
+  title: Terminal
+  dimensions:
+    columns: 80
+    lines: 27
   padding:
-    x: 3
-    y: 3
+    x: 2
+    y: 2
+cursor:
+  style:
+    shape: underline
+    blinking: on
