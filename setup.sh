@@ -1,5 +1,3 @@
-#bin/bash
-
 cd ~
 git clone https://github.com/M4vb/dotfiles.git
 cd dotfiles
