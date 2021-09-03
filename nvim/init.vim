@@ -69,4 +69,4 @@ let g:NERDSpaceDelims = 1  " Agregar un espacio después del delimitador del com
 let g:NERDTrimTrailingWhitespace = 1  " Quitar espacios al quitar comentario
 
 " Emmet
-let g:user_emmet_leader_key='<C-N>'
+" let g:user_emmet_leader_key='<C-N>'
