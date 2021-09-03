@@ -16,8 +16,8 @@
 # since 'fasd' is messing with the $PROMPT_COMMAND
 
 
-PROMPT_END_CLEAN="${green}→${reset_color}"
-PROMPT_END_DIRTY="${red}→${reset_color}"
+PROMPT_END_CLEAN="${green}\$${reset_color}"
+PROMPT_END_DIRTY="${red}\$${reset_color}"
 
 function prompt_end() {
   echo -e "$PROMPT_END"
