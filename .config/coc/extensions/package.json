@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "coc-python": ">=1.2.13",
-    "coc-snippets": ">=2.4.6",
-    "coc-tslint": ">=1.0.17",
-    "coc-tslint-plugin": ">=1.2.0",
-    "coc-tsserver": ">=1.8.6"
-  }
-}
