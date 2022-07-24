@@ -11,7 +11,6 @@ Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', {'do': 'npm install'}
-Plug 'codota/tabnine-vim'
 Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
