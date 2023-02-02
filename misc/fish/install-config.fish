@@ -7,6 +7,6 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 fisher install jorgebucaran/nvm.fish
 
 # Installing the latest version of nodejs and npm
-nvm install latest
+nvm install lts
 
 cp ./config.fish ~/.config/fish/config.fish

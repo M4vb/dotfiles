@@ -12,12 +12,8 @@ colors:
     background: '#10100E'
     foreground: '#C6C6C4'
 font:
-  bold:
-    family: JetBrains Mono ExtraBold Nerd Font
-  italic:
-    family: JetBrains Mono Medium Nerd Font
   normal:
-    family: JetBrains Mono Medium Nerd Font
+    family: JetBrains Mono Nerd Font
   size: 12.0
 window:
   title: Terminal

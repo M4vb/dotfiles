@@ -3,4 +3,6 @@ if status is-interactive
 end
 
 set fish_greeting ""
-nvm use latest -s
+
+neofetch -L
+nvm use lts -s
