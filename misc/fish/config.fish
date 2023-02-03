@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 set fish_greeting ""
+set OPENAI_API_KEY ""
 
 neofetch -L
 nvm use lts -s
