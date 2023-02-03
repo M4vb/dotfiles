@@ -1,6 +1,5 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'jessfraz/openai.vim'
 Plug 'ayu-theme/ayu-vim' " Ayu Theme
 Plug 'scrooloose/nerdtree' " NERD Tree
 Plug 'vim-airline/vim-airline'
